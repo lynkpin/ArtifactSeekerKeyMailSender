@@ -35,11 +35,11 @@ Daniel.Masser@outlook.de
 录入时，如果邮箱重复，则不要录入
 但是要记录下来，邮箱重复的，要找到它早先那条记录的B列（兑换码）
 没有重复的，则直接对应的B列就是它的兑换码
-最终生成一个 list.txt，这个list的每条记录是三个值：
+最终生成一个 list.txt（文件名带日期后缀，比如list_2026_11_3.txt），这个list的每条记录是三个值：
 兑换码、邮箱、是否重复的
 
 
-根据list.txt，使用使用BrowserSkill，操作浏览器，访问Gmail:https://mail.google.com/mail/u/0/?hl=zh-TW#inbox/FMfcgzQbdrSjgkZFxWTlFTQSSWBzpbSC (本地浏览器已登录账号，确认账号是：lynkpingame@gmail.com)
+根据list，使用使用BrowserSkill，操作浏览器，访问Gmail: https://mail.google.com/mail/u/0/?hl=zh-TW#inbox/FMfcgzQbdrSjgkZFxWTlFTQSSWBzpbSC (本地浏览器已登录账号，确认账号是：lynkpingame@gmail.com)
 挨个发送邮件，邮件模板：
 邮件标题：Artifact Seeker: Resurrection key，神器行者：重生 激活码
 邮件正文：
